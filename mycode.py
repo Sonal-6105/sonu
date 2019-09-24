@@ -81,3 +81,11 @@ print(len(x1))                                         #Output is 4
 print("variable is %s"% type(x1))                      
 print("variable is %s" %type(y))                       # Output is variable is <class 'dict'>
 print("Printable String is %s" %str (x1))
+
+def mult(x,y=0):
+	#y =x*x
+	#print(y)
+	return (x*y)
+	
+	
+print(mult(4,y=5))
